@@ -1,0 +1,22 @@
+Notes on Git:
+
+To create a new Git Repository: 
+-open folder
+open terminal in VS code
+- type "git init"
+
+To add files to repository / stage the commits:
+- type "git add ." to add everything 
+- type "git add <file name>" to add specific files
+
+To commit the files (save to the local repository):
+- type "git commit -m "comment""
+
+To add link a remote Repository to your local repository:
+- type "git remote add origin <URL>"
+
+To push to remote repository:
+- type "git push --set-upstream origin master"  
+
+To see all commits:
+- type "git log"
