@@ -20,3 +20,6 @@ To push to remote repository:
 
 To see all commits:
 - type "git log"
+
+To change the default branch that git creates with git init:
+- type "git config --global init.defaultBranch main", where main is the default branch name that you can change to what you want
